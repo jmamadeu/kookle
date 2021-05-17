@@ -11,7 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "commitlint",
+      "pre-commit": "echo git hooks are awesome!",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
