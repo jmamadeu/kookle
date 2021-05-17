@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', (_, response) => {
   return response.json({
-    message: 'spaceman bot'
+    message: 'spaceman bot is running'
   })
 })
 
