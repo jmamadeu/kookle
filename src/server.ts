@@ -10,7 +10,7 @@ const httpServer = createServer(app)
 
 app.get('/', (_, response) => {
   return response.json({
-    message: 'spaceman bot is running!',
+    message: 'Simple API',
   })
 })
 
