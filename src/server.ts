@@ -1,3 +1,5 @@
+import 'module-alias/register'
+
 import { celebrate, errors, Joi, Segments } from 'celebrate'
 import express from 'express'
 import { createServer } from 'http'
